@@ -1,0 +1,35 @@
+<magiumConfiguration xmlns="http://www.magiumlib.com/Configuration">
+    <section identifier="pusher" label="Pusher">
+        <group identifier="general" label="General">
+            <element identifier="id" label="Application ID">
+                <description>This is the application ID to associate your website with your Pusher application.  It usually
+                    looks like a 6+ digit number with a variable app_id.  Navigate to your application at Pusher.com and go to App Keys.</description>
+            </element>
+            <element identifier="key" label="Application Key">
+                <description>This is the authentication key.  It usually appears as a hex value designed by "key"
+                    Navigate to your application at Pusher.com and go to app keys</description>
+            </element>
+            <element identifier="secret" label="Application Secret">
+                <description>The secret key used to generate a payload hash.  It usually appears as a hex value designed by "secret"
+                    Navigate to your application at Pusher.com and go to app keys</description>
+            </element>
+        </group>
+        <group identifier="options" label="Options">
+            <element identifier="scheme" label="Scheme" type="select">
+                <permittedValues>
+                    <value>http</value>
+                    <value>https</value>
+                </permittedValues>
+                <value>https</value>
+            </element>
+            <element identifier="host" />
+            <element identifier="port" />
+            <element identifier="timeout" />
+            <element identifier="encrypted" source="Magium\Configuration\Source\Switches\YesNo">
+                <value>1</value>
+            </element>
+            <element identifier="cluster" />
+        </group>
+
+    </section>
+</magiumConfiguration>

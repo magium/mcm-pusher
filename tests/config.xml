@@ -1,0 +1,16 @@
+<testConfiguration>
+    <pusher>
+        <general>
+            <id>123456</id>
+            <key>12346789asdfh</key>
+            <secret>jhgfda0987654321</secret>
+        </general>
+        <options>
+            <scheme>https</scheme>
+            <encrypted>1</encrypted>
+            <host>pusher.host</host>
+            <port>8080</port>
+            <timeout>10000</timeout>
+        </options>
+    </pusher>
+</testConfiguration>
