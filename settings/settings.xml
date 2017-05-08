@@ -22,13 +22,13 @@
                 </permittedValues>
                 <value>https</value>
             </element>
-            <element identifier="host" />
-            <element identifier="port" />
-            <element identifier="timeout" />
-            <element identifier="encrypted" source="Magium\Configuration\Source\Switches\YesNo">
+            <element identifier="host" label="Host"/>
+            <element identifier="port" label="Port"/>
+            <element identifier="timeout" label="Timeout"/>
+            <element identifier="encrypted" label="Encrypted" source="Magium\Configuration\Source\Switches\YesNo" type="select">
                 <value>1</value>
             </element>
-            <element identifier="cluster" />
+            <element identifier="cluster" label="Cluster"/>
         </group>
 
     </section>
