@@ -1,6 +1,6 @@
 # Pusher Factory for the Magium Configuration Manager
 
-If you application uses the [Magium Configuration Manager](https://github.com/magium/configuration-manager) you can use this module to retrieve a configured Pusher instance, both on the frontend and the backend.
+If you application uses the [Magium Configuration Manager](https://github.com/magium/configuration-manager) you can use this module to retrieve a configured [Pusher](https://github.com/pusher/pusher-http-php) instance, both on the frontend and the backend.
 
 ## Installation
 
