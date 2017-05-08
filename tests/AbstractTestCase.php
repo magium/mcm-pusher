@@ -10,6 +10,6 @@ abstract class AbstractTestCase extends TestCase
 
     protected function getRepository()
     {
-        return new ConfigurationRepository(file_get_contents('config.xml'));
+        return new ConfigurationRepository(file_get_contents(__DIR__ . '/config.xml'));
     }
 }
